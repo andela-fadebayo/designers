@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="This is an Interactive Design involving an overlay menu. Implemented using HTML, CSS and JavaScript.">
+	<title>Designer's UX Exercise 3</title>
+	<link rel="stylesheet" type="text/css" href="css/ex3.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/ex3.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id="main">
+		<h1>Designer's User Experience</h1>
+		<p class="text-top">
+		  This is an Interactive Design involving an overlay menu.<br />
+		  Implemented using HTML, CSS and JavaScript.
+		</p>
+
+		<p id="menu-click">Display Menu</p>
+
+		<p class="text-footer">
+			Designed by Fiyin Adebayo &copy; 2015 | Andela
+		</p>
+
+    <!-- Menu Overlay -->
+		<div id="overlay">
+			<div id="pop-menu">
+			  <div id="menu-container">
+					<ul id="circles">
+						<li>
+							<div class="overlay-circles c1"><a href="#">Aa</a></div>
+							<p class="circle-text">Text</p>
+						</li>
+						<li>
+							<div class="overlay-circles c2"><a href="#"><img src="img/camera.png" width="40" height="40"></a></div>
+							<p class="circle-text">Photo</p>
+						</li>
+						<li>
+							<div class="overlay-circles c3"><a href="#"><img src="img/quote.png" width="40" height="40"></a></div>
+							<p class="circle-text">Quote</p>
+						</li>
+						<li>
+							<div class="overlay-circles c4"><a href="#"><img src="img/link.png" width="40" height="40"></a></div>
+							<p class="circle-text">Link</p>
+						</li>
+						<li>
+							<div class="overlay-circles c5"><a href="#">hi!</a></div>
+							<p class="circle-text">Chat</p>
+						</li>
+						<li>
+							<div class="overlay-circles c6"><a href="#"><img src="img/video.png" width="40" height="40"></a></i></div>
+							<p class="circle-text">Video</p>
+						</li>
+					</ul>
+				</div>
+
+				<div id="close">Nevermind</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

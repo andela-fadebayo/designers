@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shopaholic - Andela Online Shopping Mall">
+  <meta name="author" content="Fiyin Adebayo">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <title>Shopaholic - Fiyin</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:500,400italic,500italic,400|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.11.4/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/shopaholic.css">
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="lib/bootstrap-3.3.4/js/dropdown.js"></script>
+  <script type="text/javascript" src="lib/jquery-ui-1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/shopaholic.js"></script>
+</head>
+
+<body class="container">
+  <div class="wrapper">
+    <nav>
+    	<ul id="top-nav" class="pull-right">
+    		<li class="dropdown cart">
+    			<span data-toggle="dropdown" class="dropdown-toggle"><img src="img/shop-cart.png" width="25" height="25"> Cart (0)</span>
+          <ul class="dropdown-menu">
+            <li class="cart-status">Your Cart is empty!</li>
+          </ul>
+    		</li>
+    		<li class="sign-in">
+    			<a href="#">Sign-in/Register</a>
+    		</li>
+    	</ul>
+    </nav>
+
+    <header class="row">
+      <div class="col-md-6">
+        <h1>Shopaholic</h1>
+      </div>
+
+      <div class="col-md-6 pull-right">
+        <div class="input-group">
+          <input type="text" id="search-products" class="form-control" placeholder="Search for products...">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default search-btn">Search</button>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div id="categories" class="my-nav navbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Gadgets <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Mobile Phones</a></li>
+            <li><a href="">Tablet</a></li>
+            <li><a href="">Apple MacBook Pro</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Books <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Adventures</a></li>
+            <li><a href="">Nature</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Fashion <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Shoes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div id="slider">
+      <div id="left" class="col-md-3">
+        <div class="left-active left-1">
+          <p>Windows Tablet</p>
+        </div>
+
+        <div class="left-2">
+          <p>Programming Books</p>
+        </div>
+
+        <div class="left-3">
+          <p>Women's Shoes</p>
+        </div>
+      </div>
+
+      <div id="right" class="bg-left-1 col-md-9">
+      </div>
+    </div>
+
+    <div id="all-items">
+      <div id="filter">
+        <ul class="nav navbar-default">
+          <li>
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">New Items <span><b class="caret"></b></span></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row items-row">
+        <div class="col-md-3">
+          <img src="img/blu_vivo_air.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/design_everyday_things.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/htc_one_m9.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/javascript_book.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row items-row">
+        <div class="col-md-3">
+          <img src="img/blu_vivo_air.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/design_everyday_things.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/htc_one_m9.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/javascript_book.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row items-row">
+        <div class="col-md-3">
+          <img src="img/blu_vivo_air.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/design_everyday_things.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/htc_one_m9.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/javascript_book.jpg">
+          <div class="caption">
+            <h5>Name of Item</h5>
+            <h3>N81,234</h3>
+            <a href="#" class="cart-btn btn btn-default" role="button">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="row">
+          <p><a href="http://andela.co">Andela</a> Shopping Mall &copy; 2015</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
